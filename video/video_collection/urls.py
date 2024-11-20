@@ -6,5 +6,7 @@ from . import views
 # url paths that lead to pages
 urlpatterns = [
     # homepage
-    path('', views.home, name='home')
+    path('', views.home, name='home'),
+    # page for adding videos
+    path('add', views.add, name='add_video')
 ]
