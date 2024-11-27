@@ -9,3 +9,7 @@ class VideoForm(forms.ModelForm):
         model = Video
         # list of fields matching names in Video model
         fields = ['name', 'url', 'notes']
+
+
+class SearchForm(forms.Form):
+    search_term = forms.CharField()
