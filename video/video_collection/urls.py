@@ -8,5 +8,7 @@ urlpatterns = [
     # homepage
     path('', views.home, name='home'),
     # page for adding videos
-    path('add', views.add, name='add_video')
+    path('add', views.add, name='add_video'),
+    # page containing list of videos
+    path('video_list', views.video_list, name='video_list')
 ]
